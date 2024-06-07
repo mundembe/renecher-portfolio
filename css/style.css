@@ -1052,7 +1052,7 @@ button {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 16px;
-    padding: 20px;
+    margin-bottom: 20px;
 }
 .portfolio-item {
     position: relative;
@@ -1060,7 +1060,7 @@ button {
 }
 .portfolio-item img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 }
 .portfolio-item .overlay {
